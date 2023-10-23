@@ -1,0 +1,3 @@
+C:/Informatics/rezolvari_subiecte_ubb/cmake-build-debug/CMakeFiles/rezolvari_subiecte_ubb.dir
+C:/Informatics/rezolvari_subiecte_ubb/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Informatics/rezolvari_subiecte_ubb/cmake-build-debug/CMakeFiles/rebuild_cache.dir

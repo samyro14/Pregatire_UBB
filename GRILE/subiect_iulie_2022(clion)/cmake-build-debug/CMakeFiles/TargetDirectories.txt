@@ -1,0 +1,3 @@
+C:/Informatics/rezolvari_subiecte_ubb/GRILE/subiect_iulie_2022(clion)/cmake-build-debug/CMakeFiles/subiect_iulie_2022_clion_.dir
+C:/Informatics/rezolvari_subiecte_ubb/GRILE/subiect_iulie_2022(clion)/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Informatics/rezolvari_subiecte_ubb/GRILE/subiect_iulie_2022(clion)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
