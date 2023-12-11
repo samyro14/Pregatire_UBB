@@ -130,7 +130,7 @@ c = f(20, 10)
 
 15.BD - 3p
 
-16. B(pare gresit) - 3p
+16. B - 3p
 A = {a, b, c, d, e}
 consoane = {b, c, d}
 l = 1: b c d => 3 solutii
@@ -142,9 +142,10 @@ l = 2: ab
        de => 6 solutii
 l = 3: abe
        ace
-       ade => 3 solutii
+       ade 
+       bcd => 4 solutii
 
-       12 solutii
+       13 solutii
 
 17.CD - 3p
     fomula: daca n = 2k
@@ -207,10 +208,17 @@ s(4, 4, 5) = 5 * (3, 3, 4) = 5 * 12 = 60
 s(3, 3, 4) = 4 * (2, 2, 3) = 12
 s(2, 2, 3) = 3 * (1, 1, 2) = 3
 s(1, 1, 2) = 1
+Gresit - am inmultit 6 * s(4, 4, 5)!!!
+a = b = 4  c = 6
+s(4, 4, 6) = 6 * s(3, 3, 5) = 120;
+s(3, 3, 5) = 5 * s(2, 2, 4) = 20
+s(2, 2, 4) = 4 * s(1, 1, 3) = 4
 A. c! / (c - a)! = 6! / 2! =
                  = 3  * 4 * 5 * 6
                  = 12 * 5 * 6=
                  = 60 * 6 = 360 corect
+B. c! / (c - a + 1)! = 6! / (6 - 4 + 1)! = 6! / 3!
+
 D. C(c, a - 1) = c!/(a-1)!(c - a + 1)!
                 6!/3!*3! = 4 * 5 = 20 fals
 
@@ -236,9 +244,9 @@ f(2) = f(1) + f(0) = 1 + 1 = 2
 
 24.C - corect A => 0p
 E(x) = a0 + a1*x + a2*x^2 + a3*x^3 + a4*x^4
-
 nr de inmultiri = a1 * x, x * x, a2*x^2, x^2*x, a3*x^3,
 x^3*x, a4*x^4 = 7 inmultiri
+Gresit! Trebuie sa dau factor comun!!!
 25a.B -3p
 f(3, 2) : p = f(3, 1) = 3 => 3 * 3  = 9
 f(3, 1) : p = f(3, 0) = 1 => 3 * 1 * 1 = 3
