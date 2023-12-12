@@ -10,37 +10,38 @@ ofstream fout("f.out");
 
 const int maxn = 1e6 + 2;
 /*
-1.AB
-2.B
-3.A
-4.C
-5.B
-6.C
-7.D
-8.B
-9.ABC
-10.D
-11.BCD
-12.D
-13.B
-14.D
-15.AC
-16.ACD
-17.B
-18.A
-19.B
-20.AC
-21.BD
-22.B
-23.C
-24.
-25.
-26.
-27.
-28.
-29.
-30.B
+1.AB- 3p
+2.B-3p 
+3.A-3p
+4.C-3p
+5.B-3p
+6.C-3p
+7.D-3p
+8.B-3p
+9.ABC-3p
+10.D-3p
+11.BCD-3p
+12.D-3p
+13.B-3p
+14.D-3p
+15.AC-3p
+16.ACD- doar C=> 0 puncte
+17.B-3p
+18.A-3p
+19.B-3p
+20.AC-3p
+21.BD-3p
+22.B-3p
+23.C-3p
+24.BD-3p
+25.D, corect ABD=> 1 punct
+26.D- corect AD=> 1,5 puncte
+27.B- corect BD=> 1,5 puncte
+28.BCD- corect B => 0 puncte
+29.C-3p
+30.B-3p
 
+Total punctaj = 79 + 10 oficiu = 89
 */
 
 /*
@@ -183,17 +184,75 @@ D. n = 15
     => D corect
 
 24.
-1 2 3 4 5 6 7 8 9 10
+1 2 3 4 5 6 7 
+
+k = 4
+B. j = 1...4
+ j = 1: 1
+ j = 2: 1 + 1 = 2
+ j = 3: 2 * 6 / 4 + 1 = 4
+ j = 4: 18 / 4 + 1 = 5
+B-corect
+D. j = 1: 1 corect
+   j = 2: 10 / 4 = 2
+   j = 3: 12 + 4 / 4 = 4
+   j = 4:
+25. 
+9 = 2^3 + 2^0
+ 9(10) = 1001(2)
+1 - 0 + 0 - 1 - 1 = -1 
+18 = 2^4 + 2^2
+10100
+0 - 0 + 1 - 0 + 1 + 1 = 3
+5 = 2^2 + 2^0
+
+26.
 
 
+27.
+X(A2) = numarul minim de celule pe care trebuie
+sa le calculez inainte de celula A2
+
+A2 = B1 + B2 => 2 celule
+B1 = B3 + D3 => 2 celule
+B3 = 11
+D3 = D2 + 2 => 1 celula
+D2 = 2
+B2 = D3 + 11, D3 am calculat deja
+=> X(A2) = 5
+Y(A2) = numarul maxim de celule pot fi calculate
+fara a cunoaste valorea din celula i
+Y(A2) = 13
+
+28.
+fractie trebuie sa determine cel mai mare divizor
+comun a lui nr si num
+
+
+29.
+1 1 2 3 5 8
+f(4) = aici f(3) + f(2)
+f(3) = aici f(2) + f(1)
+f(2) = aici f(1) + f(0)
+f(2) = aici f(1) + f(0)
+
+f(5) = aici f(4) + f(3)
+f(4) = aici f(3) + f(2)
+f(3) = aici f(2) + f(1)
+f(2) = aici f(1) + f(0)
+
+
+f(3) = aici f(2) + f(1)
+f(2) = aici f(1) + f(0)
 30. e(x) = a0 + a1*x + a2*x^2 + a3*x^3 + a5*x^5
     e(x) = a0 + x(a1 + a2*x + a3*x^2 + a5*x^4)
          = a0 + x(a1 + x(a2 + a3 * x + a5*x^3))
          = a0 + x(a1 + x(a2 + x(a3 + a5*x^2)))
          => 5 inmultiri
 */
-int main(){
 
+int main(){
+    
 
     return 0;
 }
