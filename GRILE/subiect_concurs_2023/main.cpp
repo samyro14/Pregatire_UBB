@@ -4,32 +4,32 @@ using namespace std;
 
 /*
 Grile
-1.A
-2.AD
-3.AD
-4.ABC
-5.ABC
-6.C
-7.ABC
-8.A
-9.B
-10.CD
-11.BD
-12.D
-13.AB
-14.AC
-15.BD
-16.BCD
-17.AC
-18.AC
-19.BCD
-20.
-21.AC
-22.AD
-23.BC
-24.
+1.A - 3.75
+2.AD - DOAR A - 1.3
+3.AD - 3.75
+4.ABC - 3.75
+5.ABC - 3.75
+6.C - 3.75
+7.ABC -doar AC, - 2.52 
+8.A - 3.75
+9.B - 3.75
+10.CD - 3.75
+11.BD - 3.75
+12.D - 3.75
+13.AB - 3.75
+14.AC - 3.75
+15.BD - 3.75
+16.BCD - corect AD, 0
+17.AC - 3.75
+18.AC - 3.75
+19.BCD - 3.75
+20.C, corect BD- 0
+21.AC - 3.75
+22.AD - 3.75
+23.BC - 3.75
+24.BD - 3.75
 
-
+Total: 8.882
 
 */
 
