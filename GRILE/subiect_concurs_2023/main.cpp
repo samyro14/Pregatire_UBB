@@ -4,31 +4,32 @@ using namespace std;
 
 /*
 Grile
-1.A
-2.AD
-3.AD
-4.ABC
-5.ABC
-6.C
-7.ABC
-8.A
-9.B
-10.CD
-11.BD
-12.D
-13.AB
-14.AC
-15.BD
-16.BCD
-17.AC
-18.AC
-19.BCD
-20.
-21.
-22.
-23.
-24.
+1.A - 3.75p
+2.AD - doar A, - 1.33p
+3.AD - 3.75p
+4.ABC - 3.75p
+5.ABC - 3.75p
+6.C - 3.75p
+7.ABC, raspuns corect AC - 2.52p
+8.A - 3.75p
+9.B - 3.75p
+10.CD - 3.75p
+11.BD - 3.75p
+12.D - 3.75p
+13.AB - 3.75p
+14.AC - 3.75p
+15.BD - 3.75p
+16.BCD - raspuns corect AD - 0p
+17.AC - 3.75p
+18.AC - 3.75p
+19.BCD - 3.75p
+20. raspuns corect BD - 0p
+21.AC - 3.75p
+22.AD - 3.75p
+23.AD - raspuns corect BC - 0p
+24.BD - 3.75p
 
+Total nota: 8.51
 
 
 */

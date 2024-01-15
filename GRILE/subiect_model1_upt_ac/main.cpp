@@ -14,7 +14,7 @@ using namespace std;
 10.A
 11.C
 12.F
-13.A
+13.A (corect B, am gradul maxim 4, nu numarul de fii!!!)
 14.C
 15.C
 16.B
