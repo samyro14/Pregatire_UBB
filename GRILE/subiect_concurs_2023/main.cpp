@@ -5,12 +5,12 @@ using namespace std;
 /*
 Grile
 1.A - 3.75p
-2.AD - doar A, - 1.33p
+2.AD - doar A, - 1.33p - ATENTIE LA INTREBARE!!SUNT INTREBAT CE SE INTAMPLA CAND i devine 2
 3.AD - 3.75p
 4.ABC - 3.75p
 5.ABC - 3.75p
 6.C - 3.75p
-7.ABC, raspuns corect AC - 2.52p
+7.ABC, raspuns corect AC - 2.52p - ATENTIE LA RESTRICTII SI PRECIZARI! 1 <= x[i] <= 10^4 (la B sunt 0)
 8.A - 3.75p
 9.B - 3.75p
 10.CD - 3.75p
@@ -19,17 +19,17 @@ Grile
 13.AB - 3.75p
 14.AC - 3.75p
 15.BD - 3.75p
-16.BCD - raspuns corect AD - 0p
+16.BCD - raspuns corect AD - 0p - La c este gresit deoarece ma intereseaza numarul de cifre, nu valoarea lor
 17.AC - 3.75p
 18.AC - 3.75p
 19.BCD - 3.75p
 20. raspuns corect BD - 0p
 21.AC - 3.75p
 22.AD - 3.75p
-23.AD - raspuns corect BC - 0p
+23.BC - 3.75
 24.BD - 3.75p
 
-Total nota: 8.51
+Total nota: 8.89
 
 
 */
